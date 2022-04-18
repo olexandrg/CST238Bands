@@ -1,42 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Login</title>
-<link rel="icon" href="../images/logo1.png">
-<link rel="stylesheet" href="../styles/login.css">	
+  <title>Login</title>
+  <link rel="icon" href="../images/logo1.png">
+  <link rel="stylesheet" href="../styles/login.css">
 </head>
+
 <body>
-<div id="header">
-<div id="icon">
-<img src="../images/logo1.png" height="15%" width="15%">
-</div>
-<div id="links">
-<div id="l1">
-<a href="/">Home</a>
-</div>
-<div id="l2">
-<a href="/charts">Charts</a>
-</div>
-<div id="l3"
-<a href="/login">Login</a>
-</div>
-</div>
-</div>
-
-<div id="body">
- <form action="/scripts/login.php" method="post">
-
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
-
-    <button type="submit">Login</button>
+  <div id="header">
+    <div id="icon">
+      <img src="../images/logo1.png" height="15%" width="15%">
+    </div>
+    <div id="links">
+      <div id="l1">
+        <a href="/">Home</a>
+      </div>
+      <div id="l2">
+        <a href="/charts">Charts</a>
+      </div>
+      <div id="l3"><a href="/login">Login</a>
+      </div>
+    </div>
   </div>
-</form> 
-</div>
+
+  <div id="body">
+    <form action="/scripts/login.php" method="post">
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button type="submit">Login</button>
+      </div>
+    </form>
+  </div>
 
 
 </body>
