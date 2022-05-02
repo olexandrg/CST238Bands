@@ -38,3 +38,11 @@
   background-color: #666;
    color: white;
 }
+
+.icon {
+  display: flex;
+  vertical-align: middle;
+  margin-top: auto;
+  margin-bottom: auto;
+
+}
