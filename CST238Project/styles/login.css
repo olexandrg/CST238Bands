@@ -48,6 +48,9 @@ button:hover {
 
 #body 
 {
+	padding-top: 5%;
+	height: 80%;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
