@@ -46,19 +46,12 @@
 
 <h2>Search</h2>
 
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('rock')"> Rock</button>
-  <button class="btn" onclick="filterSelection('country')"> Country</button>
-  <button class="btn" onclick="filterSelection('indy')"> Indy</button>
-</div>
-
 <!-- Portfolio Gallery Grid -->
 <div id="myBtnContainer">
   <button class="btn active" onclick="filterSelection('all')"> Show all</button>
   <button class="btn" onclick="filterSelection('rock')"> Rock</button>
   <button class="btn" onclick="filterSelection('country')"> Country</button>
-  <button class="btn" onclick="filterSelection('indy')"> indy</button>
+  <button class="btn" onclick="filterSelection('indy')"> Indy</button>
 </div>
 
 <!-- Portfolio Gallery Grid -->
@@ -133,6 +126,18 @@
 
 <!-- END MAIN -->
 </div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
 
 function w3AddClass(element, name) {
   var i, arr1, arr2;
