@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<head>
+  <title>Search</title>
+  <link rel="icon" href="../images/logo1.png">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/search.css">
+  <link rel="stylesheet" href="../styles/musicNote.css">
+</head>
+
+<body class="div1">
+  <div id="header">
+    <div id="icon">
+      <img src="../images/logo2.png" width="150px"  height="90px">
+      
+      <div class="note-position-4 note-amination">
+        &#9834;
+      </div>
+      
+  </div>
+
+
+  <div id="links">
+    <div id="l1">
+      <button class="headerButton" href="/Home">Home</button>
+    </div>
+    <div id="l2">
+      <button class="headerButton" href="/charts">Charts</button>
+    </div>
+    <div id="l3">
+      <button class="headerButton" href="/login">Login</button>
+    </div>
+  </div> <!-- end div links -->
+</div> <!-- end div header -->
+
+
+
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<hr>
+
+<h2>Search</h2>
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('rock')"> Rock</button>
+  <button class="btn" onclick="filterSelection('country')"> Country</button>
+  <button class="btn" onclick="filterSelection('indy')"> Indy</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+  <button class="btn" onclick="filterSelection('rock')"> Rock</button>
+  <button class="btn" onclick="filterSelection('country')"> Country</button>
+  <button class="btn" onclick="filterSelection('indy')"> indy</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column rock">
+    <div class="content">
+      <img src="../images/rock1.png" alt="rock band 1" style="width:100%">
+      <h4>Sweet N' Juicy</h4>
+      <p>other description</p>
+    </div>
+  </div>
+  <div class="column rock">
+    <div class="content">
+    <img src="../images/rock2.png" alt="rock band 2" style="width:100%">
+      <h4>Keeper</h4>
+      <p>other description</p>
+    </div>
+  </div>
+  <div class="column rock">
+    <div class="content">
+    <img src="../images/rock3.png" alt="rock band 3" style="width:100%">
+      <h4>Cinders</h4>
+      <p>other description</p>
+    </div>
+  </div>
+  
+  <div class="column country">
+    <div class="content">
+      <img src="../images/country1.png" alt="country band 1" style="width:100%">
+      <h4>Ryan Montbleau solo</h4>
+      <p>Fox and Bones</p>
+    </div>
+  </div>
+  <div class="column country">
+    <div class="content">
+    <img src="../images/country2.png" alt="country band 2" style="width:100%">
+      <h4>Hot Buttered Rum</h4>
+      <p>Mississippi Studios</p>
+    </div>
+  </div>
+  <div class="column country">
+    <div class="content">
+    <img src="../images/country3.png" alt="country band 3" style="width:100%">
+      <h4>Jawbone Flats</h4>
+      <p>other description</p>
+    </div>
+  </div>
+
+  <div class="column indy">
+    <div class="content">
+      <img src="../images/indy1.png" alt="indy band 1" style="width:100%">
+      <h4>The Smiths</h4>
+      <p>Meat is Murder</p>
+    </div>
+  </div>
+  <div class="column indy">
+    <div class="content">
+    <img src="../images/indy2.png" alt="indy band 2" style="width:100%">
+      <h4>Arcade Fire</h4>
+      <p>Funeral</p>
+    </div>
+  </div>
+  <div class="column indy">
+    <div class="content">
+    <img src="../images/indy3.png" alt="indy band 3" style="width:100%">
+      <h4>The Stone Roses</h4>
+      <p>The Stone Roses</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+<!-- END MAIN -->
+</div>
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>

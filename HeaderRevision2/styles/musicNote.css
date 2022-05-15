@@ -14,30 +14,30 @@
 @keyframes notes {
   0% {
     font-size: 60px;
-    opacity: 0;
-    color: red;
+    opacity: 1;
+    color: #23036a;
   }
   
     25% {
     font-size: 60px;
     opacity: 0.5;
-    color: yellow;
+    color: #30009c;
   }
   
   50% {
     opacity: 1;
-    color: green;
+    color: #3700b3;
   }
   
     75% {
     font-size: 60px;
     opacity: 0.5;
-    color: blue;
+    color: #5600e8;
   }
   
   100% {
     font-size: 60px;
     opacity: 1;
-    color: purple;
+    color: #6200ee;
   }
 }

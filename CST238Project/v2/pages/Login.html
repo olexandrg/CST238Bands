@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login</title>
+  <link rel="icon" href="../images/Logo2.png">
+  <link rel="stylesheet" href="../styles/login.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/musicNote.css">
+</head>
+
+<body>
+  <div id="header">
+    <div id="icon">
+      <img src="../images/logo2.png" width="150px"  height="90px">
+      
+      <div class="note-position-4 note-amination">
+        &#9834;
+      </div>
+      
+  </div>
+
+
+  <div id="links">
+    <div id="l1">
+      <button class="headerButton" href="/">Home</button>
+    </div>
+    <div id="l2">
+      <button class="headerButton" href="/charts">Charts</button>
+    </div>
+    <div id="l3">
+      <button class="headerButton" href="/login">Login</button>
+    </div>
+  </div>
+</div>
+
+
+  <div id="body">
+    <form action="/scripts/login.php" method="post">
+
+      <div class="container">
+        <label for="uname"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+
+        <label for="psw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <button id="login_button" type="submit">Login</button>
+      </div>
+    </form>
+  </div>
+
+
+</body>
+
+</html>
