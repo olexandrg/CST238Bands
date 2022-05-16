@@ -8,16 +8,17 @@
     width: 60%;
     height: 80%;
     margin-left: 20%;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 #charts-item {
+    padding-top: 1.5%;
     display: flex;
 	vertical-align: middle;
 	margin-top: auto;
 	margin-bottom: auto;
     width: 100%;
-    height: 10%;
+    height: 15%;
 }
 
 #chart-a {
@@ -40,7 +41,7 @@
 }
 
 #chart-span {
-    margin-top: -1.5%;
+    margin-top: -1%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 2%;
 }
