@@ -23,10 +23,11 @@ a
 }
 
 #icon {
-	height: 100px;
-	width: 250px;
-	align-items: left;
-	padding: 10px;
+	display: flex;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 2.5%;
 }
 
 #links {
@@ -36,7 +37,7 @@ a
 	padding: 5px;
 	margin-left: auto; 
 	margin-right: 0;
-	/*font-weight: 900;*/
+	font-weight: 900;
 	background-color: #ededed;
 }
 
