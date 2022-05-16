@@ -22,6 +22,7 @@
 }
 
 #chart-a {
+    display: flex;
     width: 7.5%;
     height: 100%;
 }
@@ -44,4 +45,19 @@
     margin-top: -1%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 2%;
+}
+
+#chart-listeners {
+    position: absolute;
+    display: flex;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 9.5%;
+}
+
+#chart-tickets {
+    position: absolute;
+    margin-left: 52.5%;
+    margin-top: .75%;
+    font-weight: 900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
