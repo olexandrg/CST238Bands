@@ -2,8 +2,9 @@
 
 .column {
   float: left;
-  width: 33.33%;
-  display: show; 
+  width: 33.33%; 
+  display: flex; 
+  justify-content:  center;
 }
 
 .row:after {
@@ -37,4 +38,9 @@
 .btn.active {
   background-color: #666;
    color: white;
+}
+
+img.tile  {
+  width: 70%;
+  height: auto;
 }
