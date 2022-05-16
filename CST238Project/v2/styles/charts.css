@@ -1,0 +1,47 @@
+#charts-header {
+    margin-top: 5%;
+    margin-left: 35%;
+}
+
+#charts-container {
+    list-style: none;
+    width: 60%;
+    height: 80%;
+    margin-left: 20%;
+    margin-top: 3%;
+}
+
+#charts-item {
+    padding-top: 1.5%;
+    display: flex;
+	vertical-align: middle;
+	margin-top: auto;
+	margin-bottom: auto;
+    width: 100%;
+    height: 15%;
+}
+
+#chart-a {
+    width: 7.5%;
+    height: 100%;
+}
+
+#chart-image {
+    display: flex;
+	vertical-align: middle;
+	margin-top: -20%;
+	margin-bottom: auto;
+    width: 100%;
+}
+
+#chart-number {
+    font-size: 30px;
+    padding-right: 5%;
+    font-weight: 900;
+}
+
+#chart-span {
+    margin-top: -1%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 2%;
+}

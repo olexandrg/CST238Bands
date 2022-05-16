@@ -1,0 +1,43 @@
+.note-position-4 {
+  top: 35px;
+  left: 105px;
+}
+
+.note-amination {
+  position: absolute;
+  animation-name: notes;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  opacity: 0;
+}
+
+@keyframes notes {
+  0% {
+    font-size: 60px;
+    opacity: 1;
+    color: #23036a;
+  }
+  
+    25% {
+    font-size: 60px;
+    opacity: 0.5;
+    color: #30009c;
+  }
+  
+  50% {
+    opacity: 1;
+    color: #3700b3;
+  }
+  
+    75% {
+    font-size: 60px;
+    opacity: 0.5;
+    color: #5600e8;
+  }
+  
+  100% {
+    font-size: 60px;
+    opacity: 1;
+    color: #6200ee;
+  }
+}
