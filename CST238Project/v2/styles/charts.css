@@ -21,6 +21,10 @@
     height: 15%;
 }
 
+li:hover {
+	    background: #eee;
+}
+
 #chart-a {
     display: flex;
     width: 7.5%;
