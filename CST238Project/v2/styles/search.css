@@ -1,3 +1,4 @@
+/* header div style */
 .div1 {
   box-sizing: border-box;
 }
@@ -13,6 +14,7 @@ h1 {
   word-break: break-all;
 }
 
+/* row margin */
 .row {
   margin: 10px -16px;
 }
@@ -57,10 +59,12 @@ h1 {
   cursor: pointer;
 }
 
+/* hover effect for buttons */
 .btn:hover {
   background-color: #ddd;
 }
 
+/* active effect for buttons */
 .btn.active {
   background-color: #666;
   color: white;

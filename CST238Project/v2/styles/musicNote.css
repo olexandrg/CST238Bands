@@ -1,8 +1,10 @@
+/* position for music note */
 .note-position-4 {
   top: 35px;
   left: 105px;
 }
 
+/* effects for music note */
 .note-amination {
   position: absolute;
   animation-name: notes;
@@ -11,6 +13,7 @@
   opacity: 0;
 }
 
+/* key frames, 4 total, size does not change, only color and opacity */
 @keyframes notes {
   0% {
     font-size: 60px;
