@@ -1,8 +1,9 @@
+/* header charts style */
 #charts-header {
     margin-top: 5%;
     margin-left: 35%;
 }
-
+/* Chart- container */
 #charts-container {
     list-style: none;
     width: 60%;
@@ -10,7 +11,7 @@
     margin-left: 20%;
     margin-top: 3%;
 }
-
+/* Chart- item */
 #charts-item {
     padding-top: 1.5%;
     display: flex;
@@ -20,17 +21,17 @@
     width: 100%;
     height: 15%;
 }
-
+/* make a hovor background color*/
 li:hover {
 	    background: #eee;
 }
-
+/* desion of the chart-ticket */
 #chart-a {
     display: flex;
     width: 7.5%;
     height: 100%;
 }
-
+/* desion of the chart image */
 #chart-image {
     display: flex;
 	vertical-align: middle;
@@ -38,26 +39,26 @@ li:hover {
 	margin-bottom: auto;
     width: 100%;
 }
-
+/* chart number  */
 #chart-number {
     font-size: 30px;
     padding-right: 5%;
     font-weight: 900;
 }
-
+/* desion of the chart-ticket */
 #chart-span {
     margin-top: -1%;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 2%;
 }
-
+/* desion of the chart-listener */
 #chart-listeners {
     position: absolute;
     display: flex;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 9.5%;
 }
-
+/* desion of the chart-ticket */
 #chart-tickets {
     position: absolute;
     margin-left: 52.5%;
