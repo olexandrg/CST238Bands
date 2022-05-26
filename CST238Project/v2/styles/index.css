@@ -1,9 +1,11 @@
+/* Add float & width constraints to each tile */
 .column {
   float: left;
   width: 33.33%;
   display: show; 
 }
 
+/* Add table formatting to content after the row */
 .row:after {
   content: "";
   display: table;
@@ -16,6 +18,7 @@
   padding: 35px;
 }
 
+/* Add box shadow to home page tiles on hover */
 .content:hover {
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -40,6 +43,7 @@
    color: white;
 }
 
+/* Add centering & padding to body / main content of page */
 #body 
 {
 	padding-top: 2.5%;
