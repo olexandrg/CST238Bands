@@ -2,7 +2,8 @@
 .column {
   float: left;
   width: 33.33%;
-  display: show; 
+  display: flex; 
+  justify-content: center;
 }
 
 /* Add table formatting to content after the row */
@@ -15,7 +16,7 @@
 /* Content */
 .content {
   background-color: white;
-  padding: 35px;
+  padding: 10px;
 }
 
 /* Add box shadow to home page tiles on hover */
@@ -56,3 +57,4 @@ h4, p {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: black;
 }
+
