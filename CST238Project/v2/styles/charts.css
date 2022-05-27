@@ -42,6 +42,8 @@ li:hover {
 /* chart number  */
 #chart-number {
     font-size: 30px;
+    padding-top: 0.25%;
+    padding-left: 2%;
     padding-right: 5%;
     font-weight: 900;
 }
@@ -56,7 +58,7 @@ li:hover {
     position: absolute;
     display: flex;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 9.5%;
+    margin-left: 10.75%;
 }
 /* desion of the chart-ticket */
 #chart-tickets {
@@ -65,4 +67,11 @@ li:hover {
     margin-top: .75%;
     font-weight: 900;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#ticket-a {
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+
 }
